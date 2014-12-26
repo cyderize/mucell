@@ -9,3 +9,6 @@ repository = "https://github.com/chris-morgan/mucell"
 readme = "README.md"
 keywords = ["cell", "container", "data-structure"]
 license = "MIT/Apache-2.0"
+
+[dependencies]
+rustc-serialize = "0.1"

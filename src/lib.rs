@@ -72,7 +72,7 @@
 #![warn(bad_style, unused, missing_docs)]
 
 #[phase(plugin, link)] extern crate core;
-extern crate serialize;
+extern crate "rustc-serialize" as serialize;
 extern crate rand;
 extern crate collections;
 
