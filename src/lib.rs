@@ -305,7 +305,7 @@ impl<T: Hash<S>, S = sip::SipState> Hash<S> for MuCell<T> {
 /// }
 ///
 /// fn main() {
-///     demo(&MuCell::new(Foo { bar: "panic".into_string() }));
+///     demo(&MuCell::new(Foo { bar: "panic".to_string() }));
 /// }
 /// ```
 ///
